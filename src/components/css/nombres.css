@@ -1,0 +1,26 @@
+.content-nombres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  position: relative;
+  z-index: 3; 
+  background-color: var(--verde);
+  margin-bottom: -1%;
+}
+
+.logo-nombres {
+  height: 90%;
+}
+
+@media (max-width: 768px) {
+  .content-nombres {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-nombres {
+    height: 15vh;
+  }
+}

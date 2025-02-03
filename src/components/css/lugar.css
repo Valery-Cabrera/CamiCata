@@ -1,0 +1,25 @@
+.container-lugar {
+  position: relative;
+  margin: 0;
+  height: 100vh;
+  background-image: url(../../assets/lugar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-lugar p, .container-lugar button {
+  color: var(--blanco);
+  font-weight: bold;
+}
+
+
+@media (max-width: 480px) {
+  .container-lugar {
+    height: 45vh;
+  }
+}

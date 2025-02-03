@@ -1,0 +1,247 @@
+.container-portada {
+  width: 100%;
+  height: 80vh;
+  /* Altura por defecto */
+  overflow: hidden;
+  font-family: "Belleza", serif;
+  font-style: normal;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.background-image-portada {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../../assets/foto1.jpg');
+  background-size: cover;
+  /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.gradient-overlay-portada {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, var(--verde) 20%, rgba(0, 0, 0, 0) 100%);
+  z-index: 2;
+}
+
+.content-bottom-portada {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  z-index: 3;
+  color: var(--blanco);
+}
+
+.texto-portada {
+  font-size: 2.5vh;
+  z-index: 4;
+}
+
+.letra-peq {
+  font-size: 2vh;
+}
+
+.audio-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  z-index: 4;
+}
+
+.audio-controls button {
+  padding: 12px;
+  display: flex;
+  color: var(--blanco);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--verde);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--blanco);
+}
+
+.progress-bar {
+  width: 300px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  z-index: 4;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--verde);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.progress-bar::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--verde);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .container-portada {
+    height: 70vh;
+  }
+
+  .gradient-overlay-portada {
+    height: 45vh;
+    background: linear-gradient(to bottom, var(--verde) 8%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .background-image-portada {
+    background-size: 155%;
+    /* Aumenta el tamaño de la imagen en móviles */
+    background-position: center top;
+    /* height: 45vh; */
+  }
+
+  .content-bottom-portada {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 3;
+  }
+
+  .texto-portada {
+    font-size: 5vw;
+    /* Ajuste dinámico de tamaño de texto */
+  }
+
+  .audio-controls {
+    margin-top: 20px;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .progress-bar {
+    width: 90%;
+    background-color: #6765534a;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-portada {
+    height: 61vh;
+    /* height: 47vh; */
+  }
+
+  .letra-peq {
+    font-size: 2.5vh !important;
+  }
+
+  .gradient-overlay-portada {
+    height: 40vh;
+  }
+
+  .background-image-portada {
+    background-size: 160%;
+    background-position: center top;
+    /* height: 40vh; */
+  }
+
+  .texto-portada {
+    font-size: 5vw;
+    /* Ajuste de tamaño de texto para pantallas más pequeñas */
+  }
+
+  .audio-controls {
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .progress-bar {
+    width: 85%;
+  }
+}
+
+@media (max-width: 390px) {
+  .container-portada {
+    height: 58vh;
+  }
+
+  /* .background-image-portada {
+    background-size: 170%;
+    height: 38vh;
+  } */
+
+  .content-bottom-portada {
+    padding: 1%;
+  }
+
+  .texto-portada {
+    font-size: 5vw;
+    /* Ajuste de tamaño de texto aún más pequeño */
+  }
+
+  .audio-controls {
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .progress-bar {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-portada {
+    height: 57vh;
+  }
+}
+
+@media (max-width: 350px) {
+  .container-portada {
+    height: 58vh;
+  }
+
+  .texto-portada {
+    font-size: 6vw;
+  }
+
+  .letra-peq {
+    font-size: 2.3vh !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .container-portada {
+    height: 50vh;
+  }
+}

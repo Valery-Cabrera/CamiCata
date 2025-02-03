@@ -1,0 +1,32 @@
+.container-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 8vh 0;
+    background-color: var(--verde);
+    border-radius: 15%;
+}
+
+.img-whatsapp {
+    width: 32%;
+}
+
+.container-contacto p,
+.container-contacto h2 {
+    color: var(--blanco);
+}
+
+.container-contacto a {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 950px) {
+    .img-whatsapp {
+        width: 25%;
+    }
+}

@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'Cormorant SC', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Cormorant SC', serif;
+}
+
+:root {
+  --verde: #676553;
+  --crema: #f4efe9;
+  --blanco: #ffffff;
+  --texto: #606060;
+  --background: #fffdf9;
+  --timerBorder: #8e7151;
+  --timerColor: #ac8c61;
+}
+
+p {
+  font-family: 'Cormorant SC', serif;
+  font-weight: 200;
+  font-size: 3vw;
+  text-align: center;
+  color: var(--texto);
+  letter-spacing: 1px;
+  padding: 0 10%;
+}
+
+h2 {
+  font-family: 'Cormorant SC', serif;
+  color: var(--texto);
+  font-weight: 200;
+  font-size: 4vw;
+  padding: 0 10%;
+  text-align: center;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 13px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--verde);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 2%;
+  font-family: 'Cormorant SC';
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 6vw;
+  }
+
+  button {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 7vw;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 6vw;
+  }
+
+  button {
+    font-size: 4vw;
+  }
+
+  h2 {
+    font-size: 8vw;
+    padding: 0 9%;
+  }
+}

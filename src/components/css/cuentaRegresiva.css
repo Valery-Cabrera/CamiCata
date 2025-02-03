@@ -1,0 +1,41 @@
+.container-cuenta-regresiva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tiempo-restante {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+
+.contenedor-quedan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-quedan p {
+    margin: 0;
+    padding: 0;
+}
+
+.numero-cuenta-regresiva {
+    font-size: 7vw;
+}
+
+
+@media (max-width: 480px) {
+    .numero-cuenta-regresiva {
+        font-size: 10vw;
+    }
+    
+    .container-tiempo-restante {
+        gap: 1vh;
+    }
+}

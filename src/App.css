@@ -1,0 +1,7 @@
+html, body, body.dark-mode {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);background-color: var(--background);
+  box-sizing: border-box;
+}

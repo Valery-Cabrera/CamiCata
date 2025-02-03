@@ -1,0 +1,23 @@
+.container-frase {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    box-sizing: border-box;
+    width: 100%;
+    margin: 3vh 0;
+  }
+  
+  .box-frase {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .container-personas-invitadas {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .nombres-personas-invitadas {
+    margin: 5px 0; 
+  }
+  

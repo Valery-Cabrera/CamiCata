@@ -1,0 +1,65 @@
+.container-calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+
+    text-transform: uppercase;
+}
+
+.calendario-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.calendario-header {
+    display: contents;
+}
+
+.calendario-dia-header,
+.calendario-dia {
+    text-align: center;
+    padding: 10px;
+    cursor: default;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.calendario-dia-header,
+.calendario-dia>p {
+    margin: 0;
+    font-size: 4vh;
+}
+
+.selected {
+    color: var(--blanco);
+    position: relative;
+    z-index: 5;
+    background-image: url(../../assets/Corazon.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+
+    .calendario-dia-header,
+    .calendario-dia>p {
+        font-size: 2vh;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .calendario-dia-header,
+    .calendario-dia {
+        font-size: 2vh;
+        padding: 4px;
+    }
+}

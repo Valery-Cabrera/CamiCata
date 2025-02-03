@@ -1,0 +1,29 @@
+.content-regalos {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 8vh 0;
+}
+
+.content-regalos p {
+    margin-top: 0;
+}
+
+.img-regalo {
+    width: 15%;
+}
+
+@media (max-width: 768px) {
+    .img-regalo {
+        width: 32%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-regalo {
+        padding-bottom: 0;
+    }
+}

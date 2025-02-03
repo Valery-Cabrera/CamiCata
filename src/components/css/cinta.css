@@ -1,0 +1,17 @@
+.cinta {
+    background-image: url('../../assets/cinta.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .cinta {
+      margin-top: 45px;
+      height: 10vh;
+    }
+  }
