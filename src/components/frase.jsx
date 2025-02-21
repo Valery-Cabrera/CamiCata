@@ -11,7 +11,7 @@ export const Frase = () => {
           Nos complace invitarlos a nuestra boda, donde cada ola será el reflejo de nuestro amor y el atardecer testigo de nuestra promesa
         </p>
         <div className='container-personas-invitadas'>
-          <p>Esperamos contar con su presencia</p>
+          <p>Esperamos contar con tu presencia</p>
           {userName.map((name) => {
             return (
               <p className='nombres-personas-invitadas'>

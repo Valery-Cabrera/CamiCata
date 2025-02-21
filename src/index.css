@@ -5,10 +5,22 @@ body {
     sans-serif, 'Cormorant SC', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background) !important;
 }
 
 code {
   font-family: 'Cormorant SC', serif;
+}
+
+body.dark-mode {
+  background-color: var(--background) !important;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--background) !important;
+  }
 }
 
 :root {
@@ -70,6 +82,10 @@ button:active {
   h2 {
     font-size: 7vw;
   }
+
+  body.dark-mode {
+    background-color: var(--background) !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -84,5 +100,9 @@ button:active {
   h2 {
     font-size: 8vw;
     padding: 0 9%;
+  }
+
+  body.dark-mode {
+    background-color: var(--background) !important;
   }
 }

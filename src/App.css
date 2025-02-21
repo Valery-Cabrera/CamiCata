@@ -1,14 +1,26 @@
-html, body, body.dark-mode {
+html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--background);
+  background-color: var(--background) !important;
   box-sizing: border-box;
+}
+
+body.dark-mode {
+  background-color: var(--background) !important;
+}
+
+body.dark-mode .App {
+  background-color: var(--background) !important;
+}
+
+.App {
+  background-color: var(--background) !important;
 }
 
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--background);
+    background-color: var(--background) !important;
   }
 }
