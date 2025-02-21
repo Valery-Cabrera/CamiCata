@@ -16,17 +16,8 @@
     width: 15%;
 }
 
-.regalos-rec {
-    border: none;
-    color: white;
-    padding: 13px 28px;
-    border-radius: 5px;
-    background-color: var(--verde);
-    transition: transform 0.3s ease-in-out;
-    margin-bottom: 2%;
-    font-family: 'Cormorant SC';
-    text-transform: uppercase;
-    font-size: 2vw;
+.regalos-button {
+    cursor: auto;
 }
 
 @media (max-width: 768px) {

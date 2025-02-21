@@ -24,3 +24,9 @@ a {
     width: 38%;
 }
 
+
+@media (max-width: 950px) {
+    .img {
+        width: 25%;
+    }
+}
