@@ -8,6 +8,12 @@
     height: 100%;
 }
 
+.invitacion {
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+}
+
 @media (max-width: 1025px) {
     .container-pie-pag {
         height: 7vh;

@@ -6,6 +6,7 @@
     align-content: center;
     flex-direction: column;
     padding: 8vh 0;
+    background-color: var(--background) !important;
 }
 
 .content-regalos p {

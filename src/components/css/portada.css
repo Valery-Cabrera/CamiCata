@@ -5,6 +5,7 @@
   font-family: "Belleza", serif;
   position: relative;
   z-index: 1;
+  background-color: var(--background) !important;
 }
 
 .background-image-portada {

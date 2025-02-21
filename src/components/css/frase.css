@@ -5,6 +5,7 @@
     box-sizing: border-box;
     width: 100%;
     margin: 3vh 0;
+    background-color: var(--background) !important;
   }
   
   .box-frase {

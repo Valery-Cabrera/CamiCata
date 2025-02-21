@@ -40,7 +40,7 @@ const Invitacion = () => {
 
 
   return (
-    <>
+    <div className='invitacion'>
       <audio ref={audioRef} loop>
         <source src={cancionSrc} type="audio/mp3" />
         Tu navegador no soporta el elemento de audio.
@@ -64,7 +64,7 @@ const Invitacion = () => {
       <div className='container-pie-pag'>
         <Nombres />
       </div>
-    </>
+    </div>
   );
 };
 

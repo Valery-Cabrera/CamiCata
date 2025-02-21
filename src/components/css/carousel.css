@@ -7,6 +7,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 45px auto;
+    background-color: var(--background) !important;
 }
 
 .imagen-actual {
