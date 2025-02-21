@@ -14,7 +14,7 @@ export const Frase = () => {
           <p>Esperamos contar con tu presencia</p>
           {userName.map((name) => {
             return (
-              <p className='nombres-personas-invitadas'>
+              <p key={name} className='nombres-personas-invitadas'>
                 {name}
               </p>
             )

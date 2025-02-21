@@ -95,7 +95,7 @@ export const Portada = ({ audioRef }) => {
         <div className="audio-controls">
         <button onClick={rewind}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="icon" preserveAspectRatio="xMidYMid meet">
-                <path d="M13.59 7.41L9 12l4.59 4.59L15 17l-5-5 5-5zm5 0L14 12l4.59 4.59L20 17l-5-5 5-5z" stroke-width="2" fill="none" stroke="currentColor"/>
+                <path d="M13.59 7.41L9 12l4.59 4.59L15 17l-5-5 5-5zm5 0L14 12l4.59 4.59L20 17l-5-5 5-5z" strokeWidth="2" fill="none" stroke="currentColor"/>
             </svg>
           </button>
 
@@ -110,7 +110,7 @@ export const Portada = ({ audioRef }) => {
 
           <button onClick={forward}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="icon" preserveAspectRatio="xMidYMid meet">
-              <path d="M10.41 7.41L15 12l-4.59 4.59L9 17l5-5-5-5zm-5 0L5.41 8.83 10 12l-4.59 4.59L5 17l5-5-5-5z" stroke-width="2" fill="none" stroke="currentColor"/>
+              <path d="M10.41 7.41L15 12l-4.59 4.59L9 17l5-5-5-5zm-5 0L5.41 8.83 10 12l-4.59 4.59L5 17l5-5-5-5z" strokeWidth="2" fill="none" stroke="currentColor"/>
 
             </svg>
           </button>

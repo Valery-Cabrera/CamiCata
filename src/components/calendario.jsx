@@ -36,7 +36,7 @@ export const Calendario = () => {
             key={index}
             className="calendario-dia"
           >
-            <p className={(date === 11) && 'selected'}>
+            <p className={(date === 11) ? 'selected' : ''}>
               {date ? date : ''}
             </p>
           </div>

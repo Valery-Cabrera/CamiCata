@@ -19,30 +19,12 @@ const VideoBackground = () => {
   const [valor, setValor] = useState('');
   const [nombre, setNombre] = useState('');
 
-  // const normalizarTexto = (value) => {
-  //   // Eliminar espacios al principio y al final
-  //   let texto = value.trim();
-
-  //   // Eliminar tildes
-  //   texto = texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-
-  //   // Eliminar todos los caracteres no alfabéticos (espacios, números, signos de puntuación)
-  //   texto = texto.replace(/[^a-zA-Z]/g, "");
-
-  //   // Convertir todo a mayúsculas
-  //   texto = texto.toUpperCase();
-
-  //   return texto;
-  // }
-
   const handleChange = (event) => {
     setValor(event.target.value);
   };
 
   const comprobarPersona = () => {
     const nombreEncontrado = invitados[valor];
-
-    console.log("nombreEncontrado ", nombreEncontrado, valor)
 
     if (nombreEncontrado) {
       setNombre(nombreEncontrado);
