@@ -1,0 +1,18 @@
+.foto {
+    background-image: url('../../assets/pieDePagina.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1025px) {
+  .foto {
+    margin-top: 3vh;
+    height: 20vh;
+  }
+}
+
