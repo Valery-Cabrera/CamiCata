@@ -21,9 +21,11 @@ const Invitacion = () => {
   const audioRef = useRef(null);
 
   useEffect(() => {
+    const currentAudio = audioRef.current;
+
     const playAudio = () => {
-      if (audioRef.current) {
-        audioRef.current.play().catch((error) => {
+      if (currentAudio) {
+        currentAudio.play().catch((error) => {
           console.error('Error al reproducir el audio:', error);
         });
       }
@@ -32,7 +34,6 @@ const Invitacion = () => {
     playAudio();
 
     return () => {
-      const currentAudio = audioRef.current;
       if (currentAudio) {
         currentAudio.pause();
         currentAudio.currentTime = 0;

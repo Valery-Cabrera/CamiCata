@@ -1,22 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import '../components/css/cuentaRegresiva.css';
 
 export const CuentaRegresiva = ({ fecha }) => {
-  const calcularTiempoRestante = () => {
-    const hoy = new Date();
-    const tiempoQueda = fecha - hoy;
 
-    let tiempoRestante = {};
-    if (tiempoQueda > 0) {
-        tiempoRestante = {
-        dias: Math.floor(tiempoQueda / (1000 * 60 * 60 * 24)),
-        horas: Math.floor((tiempoQueda % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-        minutos: Math.floor((tiempoQueda % (1000 * 60 * 60)) / (1000 * 60)),
-        segundos: Math.floor((tiempoQueda % (1000 * 60)) / 1000),
-      };
-    }
-    return tiempoRestante;
-  };
+ const calcularTiempoRestante = useCallback(() => {
+  const hoy = new Date();
+  const tiempoQueda = fecha - hoy;
+
+  let tiempoRestante = {};
+  if (tiempoQueda > 0) {
+      tiempoRestante = {
+      dias: Math.floor(tiempoQueda / (1000 * 60 * 60 * 24)),
+      horas: Math.floor((tiempoQueda % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+      minutos: Math.floor((tiempoQueda % (1000 * 60 * 60)) / (1000 * 60)),
+      segundos: Math.floor((tiempoQueda % (1000 * 60)) / 1000),
+    };
+  }
+  return tiempoRestante;
+  }, [fecha]);
+
 
   const [tiempoRestante, setTiempoRestante] = useState(calcularTiempoRestante());
 

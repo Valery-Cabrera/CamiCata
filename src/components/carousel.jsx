@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import '../components/css/carousel.css';
 import imagen1 from "../assets/carousel/Imagen1.jpg";
 import imagen2 from "../assets/carousel/Imagen2.jpg";
@@ -50,7 +50,7 @@ export const Carousel = () => {
   const [imagenActual, setImagenActual] = useState(imagenes[1]);
   const [imagenSiguiente, setImagenSiguiente] = useState(imagenes[2]);
 
-  const cambiarImagen = () => {
+  const cambiarImagen = useCallback(() => {
     const indiceActual = imagenes.indexOf(imagenActual);
     const siguienteIndice = (indiceActual + 1) % imagenes.length;
     const anterior = siguienteIndice - 1 < 0 ? imagenes.length - 1 : siguienteIndice - 1;
@@ -58,7 +58,7 @@ export const Carousel = () => {
     setImagenAnterior(imagenes[anterior]);
     setImagenActual(imagenes[siguienteIndice]);
     setImagenSiguiente(imagenes[siguiente]);
-  };
+  }, [imagenActual]);
 
   useEffect(() => {
     const intervalo = setInterval(cambiarImagen, 2000);
