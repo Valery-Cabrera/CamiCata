@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CamiCata/static/css/main.fefc3f59.css",
-    "main.js": "/CamiCata/static/js/main.57f23a00.js",
+    "main.js": "/CamiCata/static/js/main.f82476a4.js",
     "static/js/453.647fd92d.chunk.js": "/CamiCata/static/js/453.647fd92d.chunk.js",
     "static/media/videoInicio.mp4": "/CamiCata/static/media/videoInicio.9a948d2b6497b9795792.mp4",
     "static/media/Imagen5.jpg": "/CamiCata/static/media/Imagen5.0755898d5bd5625d6ba2.jpg",
@@ -39,11 +39,11 @@
     "static/media/logo-nombres.jpg": "/CamiCata/static/media/logo-nombres.53236efb890950e9befa.jpg",
     "index.html": "/CamiCata/index.html",
     "main.fefc3f59.css.map": "/CamiCata/static/css/main.fefc3f59.css.map",
-    "main.57f23a00.js.map": "/CamiCata/static/js/main.57f23a00.js.map",
+    "main.f82476a4.js.map": "/CamiCata/static/js/main.f82476a4.js.map",
     "453.647fd92d.chunk.js.map": "/CamiCata/static/js/453.647fd92d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fefc3f59.css",
-    "static/js/main.57f23a00.js"
+    "static/js/main.f82476a4.js"
   ]
 }
