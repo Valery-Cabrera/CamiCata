@@ -1,16 +1,17 @@
 import React, { useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import './VideoBackground.css';
 import videoSrc from "../assets/videoInicio.mp4"
 import { AudioPlayer } from '../components/audioPlayer';
 import { useUser } from '../context/UserContext';
 import invitados from "../datos/lista-invitados.json"
+import Invitacion from '../components/invitacion';
 
 const mensaje = "Verifica tu código."
 
 const VideoBackground = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const { login } = useAuth();
   const { setUserName } = useUser();
 
@@ -38,7 +39,8 @@ const VideoBackground = () => {
       }
 
       setTimeout(() => {
-        navigate('/invitacion');
+        <Invitacion />
+        // navigate('/invitacion');
       }, 100);
 
     } else {

@@ -5,7 +5,8 @@ body {
     sans-serif, 'Cormorant SC', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background) !important;
+  background-color:#fffdf9 !important;
+  color-scheme: light;
 }
 
 code {
@@ -13,13 +14,13 @@ code {
 }
 
 body.dark-mode {
-  background-color: var(--background) !important;
+  background-color:#fffdf9 !important;
 }
 
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--background) !important;
+    background-color:#fffdf9 !important;
   }
 }
 
@@ -31,6 +32,7 @@ body.dark-mode {
   --background: #fffdf9;
   --timerBorder: #8e7151;
   --timerColor: #ac8c61;
+  color-scheme: light;
 }
 
 p {
@@ -84,7 +86,7 @@ button:active {
   }
 
   body.dark-mode {
-    background-color: var(--background) !important;
+    background-color:#fffdf9 !important;
   }
 }
 
@@ -103,6 +105,6 @@ button:active {
   }
 
   body.dark-mode {
-    background-color: var(--background) !important;
+    background-color:#fffdf9 !important;
   }
 }
