@@ -12,28 +12,31 @@ export const Dresscode = () => {
       </p>
       <p>Colores reservados</p>
       <div className='container-colores'>
-        <div className='color op1' >
+        <div className='color blanco' >
           <span className='tooltip'>Blanco</span>
         </div>
-        <div className='color op2' >
+        <div className='color baige' >
+          <span className='tooltip'>Baige</span>
+        </div>
+        <div className='color verde' >
           <span className='tooltip'>Verde</span>
         </div>
-        <div className='color op3' >
-          <span className='tooltip'>Verde</span>
-        </div>
-        <div className='color op4' >
+        <div className='color gris' >
           <span className='tooltip'>Gris</span>
+        </div>
+        <div className='color plateado' >
+          <span className='tooltip'>Plateado</span>
         </div>
       </div>
 
       <div className='sugerencia-dresscode'>
         <button onClick={() => {
-          window.location.href = 'https://co.pinterest.com/valderramacabreracc/dress-code-mujer/?invite_code=5906a549cfb2494b96f66ccad0ee940c&sender=892416619819831685';
+          window.open('https://co.pinterest.com/valderramacabreracc/dress-code-mujer/?invite_code=5906a549cfb2494b96f66ccad0ee940c&sender=892416619819831685', '_blank');
         }}>
           Ideas mujeres
         </button>
         <button onClick={() => {
-          window.location.href = 'https://co.pinterest.com/valderramacabreracc/dress-code-hombre/?invite_code=10e911171b5b4b1cade72d16600bdd12&sender=892416619819831685';
+          window.open('https://co.pinterest.com/valderramacabreracc/dress-code-hombre/?invite_code=10e911171b5b4b1cade72d16600bdd12&sender=892416619819831685', '_blank');
         }}>
           Ideas hombres
         </button>

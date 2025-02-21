@@ -34,11 +34,11 @@ export const CuentaRegresiva = ({ fecha }) => {
           <div className='container-tiempo-restante'>
             <div className='contenedor-quedan'>
               <p className='numero-cuenta-regresiva'>{tiempoRestante.dias}</p>
-              <p>Días</p>
+              <p className='texto-cuenta-regresiva'>Días</p>
             </div>
             <div className='contenedor-quedan'>
               <p className='numero-cuenta-regresiva'>{tiempoRestante.horas}</p>
-              <p>Horas</p>
+              <p className='texto-cuenta-regresiva'>Horas</p>
             </div>
             <div className='contenedor-quedan'>
               <p className='numero-cuenta-regresiva'>{tiempoRestante.minutos}</p>
@@ -46,7 +46,7 @@ export const CuentaRegresiva = ({ fecha }) => {
             </div>
             <div className='contenedor-quedan'>
               <p className='numero-cuenta-regresiva'>{tiempoRestante.segundos}</p>
-              <p>Segundos</p>
+              <p className='texto-cuenta-regresiva'>Segundos</p>
             </div>
           </div>
         ) : (

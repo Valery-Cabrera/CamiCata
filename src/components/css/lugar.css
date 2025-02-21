@@ -12,14 +12,28 @@
   align-items: center;
 }
 
-.container-lugar p, .container-lugar button {
+.container-lugar p,
+.container-lugar button {
   color: var(--blanco);
   font-weight: bold;
+}
+
+.container-lugar button {
+  margin-top: 5%;
+}
+
+.texto-lugar {
+  margin: 0;
 }
 
 
 @media (max-width: 480px) {
   .container-lugar {
     height: 45vh;
+  }
+
+  .texto-lugar {
+    margin: 0;
+    margin-top: 15px;
   }
 }

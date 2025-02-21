@@ -33,20 +33,24 @@
     cursor: pointer; 
 }
 
-.op1 {
+.blanco {
     background-color: #ffffff;
 }
 
-.op2 {
-    background-color: var(--verde);
+.verde {
+    background-color: #2D572C;
 }
 
-.op3 {
-    background-color: #04602d;
-}
-
-.op4 {
+.gris {
     background-color: #c4c4c4;
+}
+
+.baige {
+    background-color: #F1e6c8;
+}
+
+.plateado {
+    background-color: #c0c0c0;
 }
 
 .tooltip {
@@ -66,7 +70,7 @@
     margin-bottom: 5px;
 }
 
-.color:hover .tooltip {
+.color:hover .tooltip, .color:focus .tooltip {
     visibility: visible;
     opacity: 1;
 }

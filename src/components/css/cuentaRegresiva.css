@@ -38,4 +38,8 @@
     .container-tiempo-restante {
         gap: 1vh;
     }
+
+    .texto-cuenta-regresiva {
+        font-size: 5vw;
+    }
 }
