@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CamiCata/static/css/main.93426396.css",
-    "main.js": "/CamiCata/static/js/main.3914db7a.js",
+    "main.css": "/CamiCata/static/css/main.2a7df363.css",
+    "main.js": "/CamiCata/static/js/main.51bd1e8f.js",
     "static/js/453.647fd92d.chunk.js": "/CamiCata/static/js/453.647fd92d.chunk.js",
     "static/media/videoInicio.mp4": "/CamiCata/static/media/videoInicio.9a948d2b6497b9795792.mp4",
     "static/media/Imagen5.jpg": "/CamiCata/static/media/Imagen5.0755898d5bd5625d6ba2.jpg",
@@ -27,6 +27,7 @@
     "static/media/Imagen16.jpg": "/CamiCata/static/media/Imagen16.e8d98f2ef1f4a8726450.jpg",
     "static/media/hospedaje.png": "/CamiCata/static/media/hospedaje.5b03bac3d09f7117cd13.png",
     "static/media/restaurantes.png": "/CamiCata/static/media/restaurantes.498d9f1daee88f8b38c0.png",
+    "static/media/pieDePagina.jpeg": "/CamiCata/static/media/pieDePagina.e21f07faaafd6be8b05f.jpeg",
     "static/media/lugaresTuristicos.png": "/CamiCata/static/media/lugaresTuristicos.c4a7190d9ba983281583.png",
     "static/media/Imagen18.jpg": "/CamiCata/static/media/Imagen18.03ef68e44a764ec96dcd.jpg",
     "static/media/Imagen17.jpg": "/CamiCata/static/media/Imagen17.4939f7c46ed94fc2ac31.jpg",
@@ -37,12 +38,12 @@
     "static/media/Corazon.png": "/CamiCata/static/media/Corazon.b8269b1e51c9629c67f6.png",
     "static/media/logo-nombres.jpg": "/CamiCata/static/media/logo-nombres.53236efb890950e9befa.jpg",
     "index.html": "/CamiCata/index.html",
-    "main.93426396.css.map": "/CamiCata/static/css/main.93426396.css.map",
-    "main.3914db7a.js.map": "/CamiCata/static/js/main.3914db7a.js.map",
+    "main.2a7df363.css.map": "/CamiCata/static/css/main.2a7df363.css.map",
+    "main.51bd1e8f.js.map": "/CamiCata/static/js/main.51bd1e8f.js.map",
     "453.647fd92d.chunk.js.map": "/CamiCata/static/js/453.647fd92d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93426396.css",
-    "static/js/main.3914db7a.js"
+    "static/css/main.2a7df363.css",
+    "static/js/main.51bd1e8f.js"
   ]
 }
