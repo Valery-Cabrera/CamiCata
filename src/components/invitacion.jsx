@@ -32,8 +32,10 @@ const Invitacion = () => {
     playAudio();
 
     return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
+      const currentAudio = audioRef.current;
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
       }
     };
   }, []);
@@ -50,7 +52,7 @@ const Invitacion = () => {
       <Frase />
       <Cinta />
       <Calendario />
-      <Lugar /> 
+      <Lugar />
       <Dresscode />
       <Cinta />
       <Carousel />
@@ -58,7 +60,7 @@ const Invitacion = () => {
       <Contacto />
       <Cinta />
       <CuentaRegresiva fecha={fecha} />
-      <Cinta /> 
+      <Cinta />
       <Foto />
       <Info />
       <div className='container-pie-pag'>

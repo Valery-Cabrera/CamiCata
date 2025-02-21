@@ -63,7 +63,7 @@ export const Carousel = () => {
   useEffect(() => {
     const intervalo = setInterval(cambiarImagen, 2000);
     return () => clearInterval(intervalo);
-  }, [imagenActual]);
+  }, [cambiarImagen]);
 
   return (
     <div className="image-container">

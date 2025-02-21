@@ -26,7 +26,7 @@ export const CuentaRegresiva = ({ fecha }) => {
     }, 1000);
 
     return () => clearInterval(timerId);
-  }, []);
+  }, [calcularTiempoRestante]);
 
   return (
       <div className='container-cuenta-regresiva'>

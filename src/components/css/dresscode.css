@@ -16,10 +16,10 @@
 .container-colores {
     display: flex;
     gap: 10px;
-    width: 75%;
+    /* width: 75%; */
     margin: 0 auto 5vh;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@
 
 @media (max-width: 480px) {
     .sugerencia-dresscode {
-        margin-top: 6vh;
+        margin-top: 0;
         gap: 2vh;
     }
 
