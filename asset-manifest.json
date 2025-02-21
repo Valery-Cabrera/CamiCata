@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CamiCata/static/css/main.7abab235.css",
-    "main.js": "/CamiCata/static/js/main.844199c2.js",
+    "main.css": "/CamiCata/static/css/main.ba763dec.css",
+    "main.js": "/CamiCata/static/js/main.2c733de2.js",
     "static/js/453.647fd92d.chunk.js": "/CamiCata/static/js/453.647fd92d.chunk.js",
     "static/media/videoInicio.mp4": "/CamiCata/static/media/videoInicio.9a948d2b6497b9795792.mp4",
     "static/media/Imagen5.jpg": "/CamiCata/static/media/Imagen5.0755898d5bd5625d6ba2.jpg",
@@ -20,26 +20,29 @@
     "static/media/Imagen9.jpg": "/CamiCata/static/media/Imagen9.91171a295bbb4a7ce79e.jpg",
     "static/media/foto1.jpg": "/CamiCata/static/media/foto1.5837f1fc981d711cdc79.jpg",
     "static/media/Imagen1.jpg": "/CamiCata/static/media/Imagen1.aebbdd8146870c74f83d.jpg",
-    "static/media/lugar.jpg": "/CamiCata/static/media/lugar.cc46c0a3f04d0eb12e1b.jpg",
     "static/media/Imagen15.jpg": "/CamiCata/static/media/Imagen15.11ddd1fb58cc65020b68.jpg",
+    "static/media/lugar.jpg": "/CamiCata/static/media/lugar.44ce1eaee7d242c14aa5.jpg",
     "static/media/regalo.png": "/CamiCata/static/media/regalo.1cbe8e37501bef3b29a5.png",
     "static/media/Imagen20.jpg": "/CamiCata/static/media/Imagen20.7b509b0a837ec3edd2b0.jpg",
     "static/media/Imagen16.jpg": "/CamiCata/static/media/Imagen16.e8d98f2ef1f4a8726450.jpg",
+    "static/media/hospedaje.png": "/CamiCata/static/media/hospedaje.5b03bac3d09f7117cd13.png",
+    "static/media/restaurantes.png": "/CamiCata/static/media/restaurantes.498d9f1daee88f8b38c0.png",
+    "static/media/lugaresTuristicos.png": "/CamiCata/static/media/lugaresTuristicos.c4a7190d9ba983281583.png",
     "static/media/Imagen18.jpg": "/CamiCata/static/media/Imagen18.03ef68e44a764ec96dcd.jpg",
     "static/media/Imagen17.jpg": "/CamiCata/static/media/Imagen17.4939f7c46ed94fc2ac31.jpg",
     "static/media/Imagen19.jpg": "/CamiCata/static/media/Imagen19.d49a2e8797a5b2fc32d5.jpg",
+    "static/media/cinta.png": "/CamiCata/static/media/cinta.c31b3e5878c76a4d8e38.png",
     "static/media/whatsapp.png": "/CamiCata/static/media/whatsapp.f2bfdddae7e255f002e4.png",
-    "static/media/cinta.png": "/CamiCata/static/media/cinta.d619f12f4f20122eaf84.png",
     "static/media/dresscode.png": "/CamiCata/static/media/dresscode.6a8d964f2b67c59bc988.png",
+    "static/media/Corazon.png": "/CamiCata/static/media/Corazon.b8269b1e51c9629c67f6.png",
     "static/media/logo-nombres.jpg": "/CamiCata/static/media/logo-nombres.53236efb890950e9befa.jpg",
-    "static/media/Corazon.png": "/CamiCata/static/media/Corazon.de9081675a2a89cbc38e.png",
     "index.html": "/CamiCata/index.html",
-    "main.7abab235.css.map": "/CamiCata/static/css/main.7abab235.css.map",
-    "main.844199c2.js.map": "/CamiCata/static/js/main.844199c2.js.map",
+    "main.ba763dec.css.map": "/CamiCata/static/css/main.ba763dec.css.map",
+    "main.2c733de2.js.map": "/CamiCata/static/js/main.2c733de2.js.map",
     "453.647fd92d.chunk.js.map": "/CamiCata/static/js/453.647fd92d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7abab235.css",
-    "static/js/main.844199c2.js"
+    "static/css/main.ba763dec.css",
+    "static/js/main.2c733de2.js"
   ]
 }
