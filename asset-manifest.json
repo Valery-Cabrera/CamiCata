@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CamiCata/static/css/main.ba763dec.css",
-    "main.js": "/CamiCata/static/js/main.2c733de2.js",
+    "main.css": "/CamiCata/static/css/main.93426396.css",
+    "main.js": "/CamiCata/static/js/main.3914db7a.js",
     "static/js/453.647fd92d.chunk.js": "/CamiCata/static/js/453.647fd92d.chunk.js",
     "static/media/videoInicio.mp4": "/CamiCata/static/media/videoInicio.9a948d2b6497b9795792.mp4",
     "static/media/Imagen5.jpg": "/CamiCata/static/media/Imagen5.0755898d5bd5625d6ba2.jpg",
@@ -37,12 +37,12 @@
     "static/media/Corazon.png": "/CamiCata/static/media/Corazon.b8269b1e51c9629c67f6.png",
     "static/media/logo-nombres.jpg": "/CamiCata/static/media/logo-nombres.53236efb890950e9befa.jpg",
     "index.html": "/CamiCata/index.html",
-    "main.ba763dec.css.map": "/CamiCata/static/css/main.ba763dec.css.map",
-    "main.2c733de2.js.map": "/CamiCata/static/js/main.2c733de2.js.map",
+    "main.93426396.css.map": "/CamiCata/static/css/main.93426396.css.map",
+    "main.3914db7a.js.map": "/CamiCata/static/js/main.3914db7a.js.map",
     "453.647fd92d.chunk.js.map": "/CamiCata/static/js/453.647fd92d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba763dec.css",
-    "static/js/main.2c733de2.js"
+    "static/css/main.93426396.css",
+    "static/js/main.3914db7a.js"
   ]
 }
