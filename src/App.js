@@ -28,9 +28,10 @@ const App = () => {
     };
   }, []);
 
+
   return (
     <AuthProvider>
-      <Router basename="/CamiCata">
+      <Router>
         <AudioPlayer />
         <Routes>
           <Route path="/" element={<VideoBackground />} />
@@ -40,6 +41,7 @@ const App = () => {
               <ProtectedRoute element={<Invitacion />} />
             }
           />
+          <Route path="*" element={<Navigate to="/" replace />}  />
         </Routes>
       </Router>
     </AuthProvider>
