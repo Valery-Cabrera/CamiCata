@@ -13,6 +13,7 @@ import { Contacto } from './contacto';
 import { CuentaRegresiva } from './cuentaRegresiva';
 import { Info } from './info';
 import { Foto } from './foto';
+import '../components/css/invitacion.css';
 
 const Invitacion = () => {
   const fecha = new Date('2025-10-11T17:00:00-05:00'); // Hora de Colombia (UTC-5)
@@ -58,8 +59,11 @@ const Invitacion = () => {
       <Cinta />
       <CuentaRegresiva fecha={fecha} />
       <Cinta /> 
-      <Info />
       <Foto />
+      <Info />
+      <div className='container-pie-pag'>
+        <Nombres />
+      </div>
     </>
   );
 };

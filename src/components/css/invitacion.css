@@ -1,0 +1,15 @@
+.container-pie-pag {
+    background-color: var(--verde);
+    height: 20vh;
+    margin-top: 5vh;
+}
+
+.container-pie-pag div{
+    height: 100%;
+}
+
+@media (max-width: 1025px) {
+    .container-pie-pag {
+        height: 7vh;
+    }
+  }
