@@ -157,12 +157,21 @@
     "Andrés Felipe Rojas Vázquez"
   ],
   "Yesica Navas": [
-"Yesica Navas",
-"David Lara"],
-  "Juanpa2025": ["Juan Pablo Algarra"], 
-"Dani2025": ["Daniel Andres León"], 
-"Mafe2025": ["Maria Fernanda Urrea"],
-  "774062": ["Leonel Puerto",
-"Monica Reyes", 
-"Alejandro Puerto"],
+    "Yesica Navas",
+    "David Lara"
+  ],
+  "Juanpa2025": [
+    "Juan Pablo Algarra"
+  ], 
+  "Dani2025": [
+    "Daniel Andres León"
+  ], 
+  "Mafe2025": [
+    "Maria Fernanda Urrea"
+  ],
+  "54321": [
+    "Leonel Puerto",
+    "Monica Reyes",
+    "Alejandro Puerto"
+  ],
 }
