@@ -16,7 +16,7 @@ import { Foto } from './foto';
 import '../components/css/invitacion.css';
 
 const Invitacion = () => {
-  const fecha = new Date('2025-10-11T17:00:00-05:00'); // Hora de Colombia (UTC-5)
+  const fecha = new Date('2025-10-11T16:30:00-05:00'); // Hora de Colombia (UTC-5)
 
   const audioRef = useRef(null);
 
